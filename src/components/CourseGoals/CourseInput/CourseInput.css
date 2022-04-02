@@ -23,7 +23,16 @@
   border-color: #8b005d;
 }
 
+.form-control.invalid input {
+  border-color: red;
+  background: #ffd7d7;
+}
 
+.form-control.invalid label {
+  color: red;
+}
+
+/*
 input.shake{
   animation: shake 1s;
   box-shadow: 0 0 0.5em red;
@@ -41,3 +50,4 @@ input.shake{
 90% { transform: translate(2px, 2px)   rotate(0deg);  }
 100%{ transform: translate(1px, -2px)  rotate(-1deg); }
 }
+*/
